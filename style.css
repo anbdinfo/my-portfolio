@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Header Section Start*/
+.bg{
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 7% 0px 7%;
+}
+.left{
+    width: 40%;
+    margin-top: 10px;
+}
+.right{
+    width: 40%;
+    margin-top: 10px;
+}
+.left h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.left p{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.left a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: orange;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+}
+/*Header Section End*/
+
+/*Dream Section Start*/
+.bg-2{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-area{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 7% 0px 7%;
+}
+.left-2{
+    width: 40%;
+    margin-top: 10px
+}
+.right-2{
+    width: 40%;
+    margin-top: 10px;
+}
+.right-2 h1{
+    font-size: 50px;
+    margin-bottom: 30px
+}
+.right-2 p{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.right-2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: orange;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+}
+/*Dream Section End*/
+
+.exprn{
+    font-size: 50px;
+    margin-left: 7%;
+    margin-top: 80px;
+}
+
+/*Card Section Start*/
+.bg-3{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.full-dev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 7% 0px 7%;
+    margin-bottom: 100px;
+}
+.left-3{
+    width: 45%;
+    height: 350px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px gray;
+    padding: 20px;
+    border-left: 5px solid orange;
+}
+.right-3{
+    width: 45%;
+    height: 350px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px gray;
+    padding: 20px;
+    border-left: 5px solid blue;
+}
+.left-3 h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.left-3 h3{
+    color: orange;
+    margin-bottom: 5px;
+}
+.left-3 p{
+    text-align: justify;
+    margin-top: 15px;
+
+}
+.right-3 h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.right-3 h3{
+    color: orange;
+    margin-bottom: 5px;
+}
+.right-3 p{
+    text-align: justify;
+    margin-top: 15px;
+
+}
+/*Card Section End*/
+
+/*Footer Section Start*/
+.footer p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*Footer Section End*/
